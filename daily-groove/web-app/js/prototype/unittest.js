@@ -1,11 +1,11 @@
 // script.aculo.us unittest.js v1.8.3, Thu Oct 08 11:23:33 +0200 2009
 
-// Copyright (c) 2005-2009 Thomas Fuchs (http://script.aculo.us, http://mir.aculo.us)
-//           (c) 2005-2009 Jon Tirsen (http://www.tirsen.com)
-//           (c) 2005-2009 Michael Schuerig (http://www.schuerig.de/michael/)
+// Copyright (c) 2005-2009 Thomas Fuchs (https://script.aculo.us, https://mir.aculo.us)
+//           (c) 2005-2009 Jon Tirsen (https://tirsen.com)
+//           (c) 2005-2009 Michael Schuerig (https://www.schuerig.de/michael/)
 //
 // script.aculo.us is freely distributable under the terms of an MIT-style license.
-// For details, see the script.aculo.us web site: http://script.aculo.us/
+// For details, see the script.aculo.us web site: https://script.aculo.us/
 
 // experimental, Firefox-only
 Event.simulateMouse = function(element, eventName) {
@@ -506,7 +506,7 @@ Object.extend(Object.extend(Test.Unit.Testcase.prototype, Test.Unit.Assertions.p
 });
 
 // *EXPERIMENTAL* BDD-style testing to please non-technical folk
-// This draws many ideas from RSpec http://rspec.rubyforge.org/
+// This draws many ideas from RSpec https://rspec.rubyforge.org/
 
 Test.setupBDDExtensionMethods = function(){
   var METHODMAP = {

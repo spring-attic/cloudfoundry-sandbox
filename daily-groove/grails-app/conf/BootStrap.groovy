@@ -2,16 +2,16 @@ import static daily.groove.Constants.*
 
 class BootStrap {
     private static final SAMPLE_FEEDS = [
-            "http://feeds.bbci.co.uk/news/rss.xml": "BBC News",
-            "http://www.theregister.co.uk/headlines.rss": "The Register",
-            "http://www.theonion.com/feeds/daily/": "The Onion",
-            "http://grails.org/plugin/latest?format=rss": "Grails Plugins",
-            "http://groovyblogs.org/feed/rss": "Groovy Blogs",
+            "https://feeds.bbci.co.uk/news/rss.xml": "BBC News",
+            "https://www.theregister.co.uk/headlines.rss": "The Register",
+            "https://www.theonion.com/feeds/daily/": "The Onion",
+            "https://grails.org/plugin/latest?format=rss": "Grails Plugins",
+            "https://feeds.feedburner.com/groovyblogs": "Groovy Blogs",
             "http://rss.slashdot.org/Slashdot/slashdot": "Slashdot",
-            "http://blog.springsource.com/feed/": "SpringSource Team Blog",
-            "http://news.sky.com/sky-news/rss/home/rss.xml": "Sky News",
-            "http://feeds.dzone.com/javalobby/frontpage": "JavaLobby",
-            "http://feeds.pheedo.com/techtarget/tsscom/home": "The Server Side"]
+            "https://spring.io/blog/": "SpringSource Team Blog",
+            "https://news.sky.com/sky-news/rss/home/rss.xml": "Sky News",
+            "http://feeds.dzone.com/java": "JavaLobby",
+            "https://feeds.pheedo.com/techtarget/tsscom/home": "The Server Side"]
 
     def redis
     

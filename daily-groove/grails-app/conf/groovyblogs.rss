@@ -4,9 +4,9 @@
 		<title>GroovyBlogs.org</title>
 		<link>http://www.groovyblogs.org</link>
 		<description>groovyblogs.org Recent Entries</description>
-		<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="http://feeds.feedburner.com/groovyblogs"/>
-		<feedburner:info xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" uri="groovyblogs"/>
-		<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/"/>
+		<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="https://feeds.feedburner.com/groovyblogs"/>
+		<feedburner:info xmlns:feedburner="https://rssnamespace.org/feedburner/ext/1.0" uri="groovyblogs"/>
+		<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="https://pubsubhubbub.appspot.com/"/>
 		<image>
 			<url>http://www.groovyblogs.org/favicon.ico</url>
 		</image>
