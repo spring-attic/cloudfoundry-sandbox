@@ -1,6 +1,6 @@
 // script.aculo.us scriptaculous.js v1.8.3, Thu Oct 08 11:23:33 +0200 2009
 
-// Copyright (c) 2005-2009 Thomas Fuchs (http://script.aculo.us, http://mir.aculo.us)
+// Copyright (c) 2005-2009 Thomas Fuchs (https://script.aculo.us, https://mir.aculo.us)
 //
 // Permission is hereby granted, free of charge, to any person obtaining
 // a copy of this software and associated documentation files (the
@@ -21,7 +21,7 @@
 // OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 // WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 //
-// For details, see the script.aculo.us web site: http://script.aculo.us/
+// For details, see the script.aculo.us web site: https://script.aculo.us/
 
 var Scriptaculous = {
   Version: '1.8.3',

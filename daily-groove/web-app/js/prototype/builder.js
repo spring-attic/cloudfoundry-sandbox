@@ -1,9 +1,9 @@
 // script.aculo.us builder.js v1.8.3, Thu Oct 08 11:23:33 +0200 2009
 
-// Copyright (c) 2005-2009 Thomas Fuchs (http://script.aculo.us, http://mir.aculo.us)
+// Copyright (c) 2005-2009 Thomas Fuchs (https://script.aculo.us, https://mir.aculo.us)
 //
 // script.aculo.us is freely distributable under the terms of an MIT-style license.
-// For details, see the script.aculo.us web site: http://script.aculo.us/
+// For details, see the script.aculo.us web site: https://script.aculo.us/
 
 var Builder = {
   NODEMAP: {
@@ -30,7 +30,7 @@ var Builder = {
     // try innerHTML approach
     var parentTag = this.NODEMAP[elementName] || 'div';
     var parentElement = document.createElement(parentTag);
-    try { // prevent IE "feature": http://dev.rubyonrails.org/ticket/2707
+    try { // prevent IE "feature": https://dev.rubyonrails.org/ticket/2707
       parentElement.innerHTML = "<" + elementName + "></" + elementName + ">";
     } catch(e) {}
     var element = parentElement.firstChild || null;
@@ -54,7 +54,7 @@ var Builder = {
         } else {
           var attrs = this._attributes(arguments[1]);
           if(attrs.length) {
-            try { // prevent IE "feature": http://dev.rubyonrails.org/ticket/2707
+            try { // prevent IE "feature": https://dev.rubyonrails.org/ticket/2707
               parentElement.innerHTML = "<" +elementName + " " +
                 attrs + "></" + elementName + ">";
             } catch(e) {}
